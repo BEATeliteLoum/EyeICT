@@ -27,7 +27,13 @@ namespace EyeCT4Rails
 
         public bool StatusWijzigen(string _Status, int _Prioriteit)
         {
-            return false; //to be implemented
+            if (Status == _Status)
+            {
+                return false;
+            }
+            Status = _Status;
+            Prioriteit = _Prioriteit;
+            return true;
         }
     }
 }

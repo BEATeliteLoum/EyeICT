@@ -23,7 +23,12 @@ namespace EyeCT4Rails
 
         public bool BlokkeerSector(bool _Blokkeer)
         {
-            return false;//to be implemented
+            if (this.Blokkeren == true)
+            {
+                return false;
+            }
+            Blokkeren = true;
+            return true;
         }
     }
 }
