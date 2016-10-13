@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,18 @@ namespace EyeCT4Rails
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Gebruiker login = new Gebruiker();         
+            if (login.Login(tbGebruikersnaam.Text, tbWachtwoord.Text))
+            {
+                Form2 form2 = new Form2();
+                this.Hide();
+                form2.ShowDialog();
+                this.Close();
+            }
         }
     }
 }

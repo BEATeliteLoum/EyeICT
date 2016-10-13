@@ -1,2 +1,11 @@
 C:\Users\wei-qiang\school\S2v2\PT\eyect4rails\EyeCT4Rails\EyeCT4Rails\bin\Debug\EyeCT4Rails.exe.config
 C:\Users\Teun\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\bin\Debug\EyeCT4Rails.exe.config
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\bin\Debug\EyeCT4Rails.exe.config
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\bin\Debug\EyeCT4Rails.exe
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\bin\Debug\EyeCT4Rails.pdb
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.csprojResolveAssemblyReference.cache
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.Form1.resources
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.Properties.Resources.resources
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.csproj.GenerateResource.Cache
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.exe
+C:\Users\Stef\Source\Repos\EyeCT4Rails\EyeCT4Rails\EyeCT4Rails\obj\Debug\EyeCT4Rails.pdb
