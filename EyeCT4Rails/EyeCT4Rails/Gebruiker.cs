@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Gebruiker
+    public class Gebruiker
     {
         public int ID { get; set; }
         public string Naam { get; set; }

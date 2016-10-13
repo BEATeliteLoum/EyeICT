@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Rooster
+    public class Rooster
     {
         public int ID { get; set; }
         public Dag Dag { get; set; }

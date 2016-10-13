@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Tram
+    public class Tram
     {
         public int ID { get; set; }
         public string Tramtype { get; set; }

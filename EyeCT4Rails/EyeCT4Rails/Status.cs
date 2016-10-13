@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    enum Status
+    public enum Status
     {
         Defect,
         Schoonmaak,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    enum Functie
+    public enum Functie
     {
         Schoonmaakchef,
         Monteurchef,
