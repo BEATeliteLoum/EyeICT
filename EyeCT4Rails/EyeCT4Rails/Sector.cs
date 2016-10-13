@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Sector
+    public class Sector
     {
         public int ID { get; set; }
         public int Lengte { get; set; }

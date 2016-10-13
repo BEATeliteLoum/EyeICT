@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Systeem
+    public class Systeem
     {
         public bool Login(string _Username, string _Wachtwoord)
         {
