@@ -16,5 +16,10 @@ namespace EyeCT4Rails
         {
             InitializeComponent();
         }
+
+        private void btnSchoonmaak_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
