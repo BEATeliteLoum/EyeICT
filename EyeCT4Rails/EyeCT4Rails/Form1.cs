@@ -20,13 +20,30 @@ namespace EyeCT4Rails
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Gebruiker login = new Gebruiker();         
-            if (login.Login(tbGebruikersnaam.Text, tbWachtwoord.Text))
+            //maak een gebruiker aan met de inloggegevens.
+            Gebruiker login = new Gebruiker();
+            //kijk of de tekstvelden niet leeg zijn.
+            if (tbGebruikersnaam.Text == "" || tbWachtwoord.Text == "")
             {
-                Form2 form2 = new Form2();
-                this.Hide();
-                form2.ShowDialog();
-                this.Close();
+                //Geef een foutmelding dat niet alle velden zijn ingevuld.
+                MessageBox.Show("U heeft niet alle velden ingevuld.");
+            }
+            else
+            {
+                // roep de functie aan om te kijken of de inloggegevens juist zijn.
+                if (login.Login(tbGebruikersnaam.Text, tbWachtwoord.Text))
+                {
+                    //Roep form2 aan en close form1.
+                    Form2 form2 = new Form2();
+                    this.Hide();
+                    form2.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    //Geef een foutmelding dat de inloggegevens onjuist zijn.
+                    MessageBox.Show("De inloggegevens zijn onjuist.");
+                }
             }
         }
     }

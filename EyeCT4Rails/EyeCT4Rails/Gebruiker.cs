@@ -32,6 +32,7 @@ namespace EyeCT4Rails
 
         public bool Login(string _Gebruikersnaam, string _Wachtwoord)
         {
+            // Vergelijk de gebruikersnaam en het wachtwoord met de opgegeven gegevens.
             if (Gebruikersnaam == _Gebruikersnaam && Wachtwoord == _Wachtwoord)
             {
                 return true;
