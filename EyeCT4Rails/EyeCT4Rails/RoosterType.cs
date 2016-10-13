@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class RoosterType
+    enum RoosterType
     {
+        Schoonmaak,
+        Reparatie,
+        Tram
     }
 }

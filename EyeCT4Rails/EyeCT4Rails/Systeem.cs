@@ -8,5 +8,14 @@ namespace EyeCT4Rails
 {
     class Systeem
     {
+        public bool Login(string _Username, string _Wachtwoord)
+        {
+            return false; //to be implemented
+        }
+
+        public Rooster MaakRooster(Tram _Tram, string Type)
+        {
+            return null; //to be implemented
+        }
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Functie
+    enum Functie
     {
+        Schoonmaakchef,
+        Monteurchef,
+        Beheerder,
+        Wagenparkbeheerder,
+        Bestuurder
     }
 }

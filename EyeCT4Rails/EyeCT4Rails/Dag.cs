@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Rails
 {
-    class Dag
+    public enum Dag
     {
+        Maandag,
+        Dinsdag,
+        Woensdag,
+        Donderdag,
+        Vrijdag,
+        Zaterdag,
+        Zondag
     }
 }
