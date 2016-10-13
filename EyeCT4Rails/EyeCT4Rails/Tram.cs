@@ -12,10 +12,10 @@ namespace EyeCT4Rails
         public string Tramtype { get; set; }
         public int Lengte { get; set; }
         public int Lijn { get; set; }
-        public string Status { get; set; }
+        public Status Status { get; set; }
         public int Prioriteit { get; set; }
 
-        public Tram(int _ID, string _Tramtype, int _Lengte, int _Lijn, string _Status, int _Prioriteit)
+        public Tram(int _ID, string _Tramtype, int _Lengte, int _Lijn, Status _Status, int _Prioriteit)
         {
             ID = _ID;
             Tramtype = _Tramtype;
@@ -25,7 +25,7 @@ namespace EyeCT4Rails
             Prioriteit = _Prioriteit;
         }
 
-        public bool StatusWijzigen(string _Status, int _Prioriteit)
+        public bool StatusWijzigen(Status _Status, int _Prioriteit)
         {
             if (Status == _Status)
             {
