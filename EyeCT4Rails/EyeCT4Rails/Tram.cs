@@ -27,13 +27,18 @@ namespace EyeCT4Rails
 
         public bool StatusWijzigen(Status _Status, int _Prioriteit)
         {
-            if (Status == _Status)
+            if (Status == _Status && Prioriteit == _Prioriteit)
             {
                 return false;
             }
             Status = _Status;
             Prioriteit = _Prioriteit;
             return true;
+        }
+
+        public override string ToString()
+        {
+            return ID + " " + Tramtype;
         }
     }
 }
