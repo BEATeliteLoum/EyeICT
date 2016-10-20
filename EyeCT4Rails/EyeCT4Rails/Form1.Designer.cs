@@ -38,7 +38,7 @@
             this.btnLogIn.Location = new System.Drawing.Point(170, 198);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(179, 37);
-            this.btnLogIn.TabIndex = 0;
+            this.btnLogIn.TabIndex = 3;
             this.btnLogIn.Text = "Log in";
             this.btnLogIn.UseVisualStyleBackColor = true;
             this.btnLogIn.Click += new System.EventHandler(this.button1_Click);
@@ -50,7 +50,7 @@
             this.tbWachtwoord.Name = "tbWachtwoord";
             this.tbWachtwoord.PasswordChar = '*';
             this.tbWachtwoord.Size = new System.Drawing.Size(179, 22);
-            this.tbWachtwoord.TabIndex = 1;
+            this.tbWachtwoord.TabIndex = 2;
             // 
             // tbGebruikersnaam
             // 
@@ -58,7 +58,7 @@
             this.tbGebruikersnaam.MaxLength = 50;
             this.tbGebruikersnaam.Name = "tbGebruikersnaam";
             this.tbGebruikersnaam.Size = new System.Drawing.Size(179, 22);
-            this.tbGebruikersnaam.TabIndex = 2;
+            this.tbGebruikersnaam.TabIndex = 1;
             // 
             // Form1
             // 

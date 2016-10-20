@@ -21,6 +21,7 @@ namespace EyeCT4Rails
         {
             List<Tram> SchoonmaakTrams = new List<Tram>();
             SchoonmaakTrams.Add( new Tram(1, "11g", 100, 1, Status.Schoonmaak, 1 ));
+            SchoonmaakTrams.Add(new Tram(2, "11g", 100, 1, Status.Schoonmaak, 1));
             foreach (Tram t in SchoonmaakTrams)
             {
                 lbSchoonmaak.Items.Add(t);
