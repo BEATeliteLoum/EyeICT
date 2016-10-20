@@ -24,5 +24,13 @@ namespace EyeCT4Rails
             form3.ShowDialog();
             this.Close();
         }
+
+        private void btnMonteur_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            this.Hide();
+            form4.ShowDialog();
+            this.Close();
+        }
     }
 }

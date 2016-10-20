@@ -50,6 +50,7 @@
             this.btnMonteur.TabIndex = 2;
             this.btnMonteur.Text = "Monteur rooster";
             this.btnMonteur.UseVisualStyleBackColor = true;
+            this.btnMonteur.Click += new System.EventHandler(this.btnMonteur_Click);
             // 
             // Form2
             // 
